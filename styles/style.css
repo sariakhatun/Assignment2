@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.quicksand-normal {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+    /* background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: 800px; */
+    margin-left: 7%;
+  }
+  /* shared style */
+  .display-flex{
+    display: flex;
+  }
+  /* header section */
+  .navbar{
+    max-width: 1160px;
+    max-height: 62px;
+    justify-content: space-between;
+    /* margin-left: 7%; */
+    margin-top: 1%;
+  }
+  .school{
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  .logo{
+    max-width: 62px;
+    max-height: 62px;
+  }
+  .school-logo {
+    align-items: center;
+  }
+  .nav-ul{
+    gap: 50px;
+  }
+  .nav-li{
+    list-style: none;
+    text-decoration: none;
+  }
+  #Home,#About,#Facilities, #Admission{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  #Home,.empower{
+    color: rgba(254, 163, 1, 1);
+  }
+  #About,.vision{
+    color: rgba(1, 172, 253, 1);
+  }
+  #Facilities{
+    color: rgba(5, 212, 223, 1);
+  }
+  #Admission{
+    color: rgba(93, 88, 239, 1);
+  }
+  .contact{
+    align-items: center;
+
+  }
+  .bar{
+    display: none;
+  }
+  .btn{
+    width: 197px;
+    max-height: 50px;
+    background-color: rgba(254, 163, 1, 1);
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border-radius: 10px;
+  }
+  .banner{
+    max-width: 1158px;
+    max-height: 575px;
+    gap: 50px;
+  }
+  .content{
+    max-width: 640px;
+    max-height: 330px;
+    align-items: center;
+    margin-top: 122px;
+  }
+  .heading{
+    margin-bottom: 20px;
+  }
+  .details{
+    font-size: 1.25rem;
+  }
+  .btn-primary{
+    width: 197px;
+    max-height: 50px;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    background-color: black;
+  }
+  .hero-kids{
+    max-width: 468px;
+    max-height: 575px;
+  }
+  /* responsive */
+  @media screen and (max-width:576px) {
+   
+    .school,.menu,.btn{
+        display: none;
+    }
+    .navbar{
+        width: 390px;
+        height: 70px;
+        border-bottom: 1px solid orange;
+    }
+    .logo{
+        width: 46px;
+        height: 46px;
+    }
+    .bar{
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-top: 30px;
+        color: black;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        max-width: 357px;
+        max-height: 1000px;
+    }
+    .hero-kids{
+        width: 336px;
+        height: 410px;
+        margin-top: 50px;
+    }
+    .content{
+        text-align: center;
+        margin-top: -50px;
+    }
+  }
