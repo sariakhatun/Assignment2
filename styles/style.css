@@ -7,9 +7,7 @@
     font-style: normal;
   }
   body{
-    /* background-image: url("../assets/bg.png");
-    background-repeat: no-repeat;
-    background-size: 800px; */
+     
     margin-left: 7%;
   }
   /* shared style */
@@ -109,6 +107,89 @@
     max-width: 468px;
     max-height: 575px;
   }
+  /* main section */
+  .bg{
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    max-height: 880px;
+    max-width: 1200px;
+  }
+  .curriculum{
+    font-size: 2.875rem;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 1) ;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  .bx{
+    max-width: 1160px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+  .box{
+    max-width: 320px;
+    max-height: 476px;
+    border-radius: 19px;
+    background: linear-gradient(to bottom, rgba(222, 245, 255, 1), rgba(255, 255, 255, 1));
+    padding: 30px 15px;
+    box-shadow: inset 0 0 28px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid  rgba(222, 245, 255, 1);
+
+  }
+  .one{
+    background: linear-gradient(to bottom, rgba(255, 244, 220, 1), rgba(255, 255, 255, 1));
+    border: 1px solid  rgba(255, 244, 220, 1);
+
+  }
+  .two{
+    background: linear-gradient(to bottom, rgba(242, 232, 255, 1), rgba(255, 255, 255, 1));
+    border: 1px solid  rgba(242, 232, 255, 1);
+
+  }
+  .image{
+    text-align: center;
+  }
+  .bread{
+    height: 110px;
+    width: 130px;
+  }
+  .kinder{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+  .detail{
+    text-align: center;
+    font-family: "Raleway", serif;
+    font-weight: 600;
+    font-size: 0.99rem;
+    color: rgba(128, 128, 128, 1);
+  }
+  .read{
+    color: rgba(100, 200, 255, 1);
+    font-weight: 600;
+    font-size: 0.99rem;
+    border: none;
+    background-color: white;
+  }
+  .r{
+    text-align: center;
+  }
+    .icon{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+  }   
+   .right{
+    border: none;
+    color: white;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 60px;
+  } 
   /* responsive */
   @media screen and (max-width:576px) {
    header{
@@ -149,5 +230,19 @@
     .content{
         text-align: center;
         margin-top: -50px;
+    }
+    .bx{
+        flex-direction: column;
+       
+    }
+    .box{
+        margin-bottom: 20px;
+    }
+    .curriculum{
+        font-size: 1.625rem;
+        margin-bottom: -50px;
+    }
+    .icon{
+        display: none;
     }
   }
