@@ -119,7 +119,7 @@
         width: 390px;
         height: 70px;
         border-bottom: 1px solid orange;
-        margin-left: 0%;
+        margin-left: -7%;
     }
     .logo{
         width: 46px;
@@ -139,6 +139,7 @@
     }
     .img-hero{
         text-align: center;
+        margin-left: 20px;
     }
     .hero-kids{
         width: 336px;
