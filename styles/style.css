@@ -396,6 +396,14 @@
     background-color: rgba(221, 75, 57, 1);
     text-align: center;
   }
+  .mark{
+    background-color: bisque;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .mark > span{
+    color: green;
+  }
   /* responsive */
   @media screen and (max-width:576px) {
     body{
@@ -435,6 +443,7 @@
         width: 336px;
         height: 410px;
         margin-top: 50px;
+        margin-left: 2%;
     }
     .content{
         text-align: center;
@@ -465,7 +474,7 @@
     .gradient{
         margin-top: 300px;
         margin-left: -10%;
-        width: 410px;
+        width: 420px;
         height: 600px;
     }
     .box1{
@@ -500,9 +509,10 @@
       }
       .footer{
         flex-direction: column;
-        width: 410px;
+        width: 420px;
         height: 640px;
         margin-left: -10%;
+        margin-right: -10%;
       }
       .first, .socond, .third{
         margin-left: 5%;
@@ -510,5 +520,9 @@
       .l{
         width: 80px;
         height: 80px;
+      }
+      .mark{
+        width: 422px;
+        margin-left: -40px;
       }
     }
