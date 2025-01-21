@@ -522,7 +522,7 @@
         height: 80px;
       }
       .mark{
-        max-width: 422px;
+        width: 422px;
         margin-left: -40px;
       }
     }
