@@ -350,7 +350,7 @@
         flex-direction: column-reverse;
         max-width: 357px;
         max-height: 1000px;
-        
+        margin-left: 0%;
     }
     .hero-kids{
         width: 336px;
@@ -365,6 +365,10 @@
         flex-direction: column;
        margin-left: -2%;
       
+    }
+    .bg{
+        margin-left: 0%;
+
     }
     .box{
         margin-bottom: 20px;
@@ -381,6 +385,9 @@
     }
     .gradient{
         margin-top: 300px;
+        margin-left: -10%;
+        width: 410px;
+        height: 600px;
     }
     .box1{
         width: 173px;
@@ -388,7 +395,7 @@
     }
     .collage-box{
         width: 358px;
-        margin-left: -10%;
+        margin-left: -7%;
     }
     .story-2{
         width: 173px;
@@ -412,7 +419,4 @@
         text-align: left;
         margin-left: 20px;
       }
-      .gradient{
-        margin-left: -5%;
-      }
-  }
+    }
