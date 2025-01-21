@@ -8,7 +8,7 @@
   }
   body{
      
-    margin-left: 7%;
+    /* margin-left: 11%; */
   }
   /* shared style */
   .display-flex{
@@ -19,7 +19,7 @@
     max-width: 1160px;
     max-height: 62px;
     justify-content: space-between;
-    /* margin-left: 7%; */
+    margin-left: 7%;
     margin-top: 1%;
   }
   .school{
@@ -79,6 +79,7 @@
     max-width: 1158px;
     max-height: 575px;
     gap: 50px;
+    margin-left: 11%;
   }
   .content{
     max-width: 640px;
@@ -114,6 +115,8 @@
     background-size: cover; 
     max-height: 880px;
     max-width: 1200px;
+
+    margin-left: 11%;
   }
   .curriculum{
     font-size: 2.875rem;
@@ -190,10 +193,137 @@
     height: 60px;
     margin-bottom: 60px;
   } 
+  .big-box{
+    max-width: 540px;
+    height: 630px;
+    border:none; 
+    border-radius: 16px;
+    background-color: white;
+  }
+  .story-1{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 540px;
+    height: 400px;
+    margin-bottom: -10px;
+
+  }
+  .k,.d,.date{
+    text-align: left;
+    margin-left: 20px;
+  }
+  .k{
+    width: 402px;
+  }
+  .d{
+    font-weight: 500;
+    width: 433px;
+  }
+  .date{
+    height: 47px;
+    width: 174px;
+    background-color:rgba(60, 216, 232, 1) ;
+    color: white;
+    border: none;
+    border-radius: 47px;
+    text-align: center;
+    margin-top: -300px;
+    font-weight: 500;
+    font-size: 0.99rem;
+    font-family: "Raleway", serif;
+
+  }
+  .img-collage {
+    gap: 20px;
+    margin-top: -50px;
+    margin-left: 11%;
+  }
+  .collage-box{
+    max-width: 540px;
+    max-height: 337px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 23px;
+  }
+  .box1{
+    max-width: 290px;
+    height: 301px;
+    border: none; 
+    border-radius: 16px;
+    background-color: white;
+  }
+  .story-2{
+    width: 291px;
+    height: 177px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin-bottom: -20px;
+  }
+  .nov{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .November{
+    background-color: rgba(149, 178, 38, 1);
+    color: white;
+    width: 174px;
+    height: 38px;
+    text-align: center;
+    border: none;
+    border-radius: 47px;
+    font-size: .99rem;
+    font-weight: 500;
+
+  }
+  .n{
+    background-color: rgba(93, 88, 240, 1);
+    color: white;
+  }
+  .caption{
+    width: 198px;
+    height: 47px;
+    font-weight: 700;
+    font-size: 0.99rem;
+    text-align: left;
+    margin-left: 60px;
+  }
+  .gradient{
+    background: linear-gradient(to top,rgb(241, 194, 113),white);
+    background-size: cover;
+    
+  }
+  .sec{
+    height: 1018px;
+   
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+  }
+  .view{
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    font-size: 1.625rem;
+    font-weight: 700;
+    width: 197px;
+    height: 50px;
+    margin-top: 60px;
+
+  }
+  .view-all{
+    text-align: center;
+  }
   /* responsive */
   @media screen and (max-width:576px) {
+    body{
+        margin-left: 9%;
+    }
    header{
-    margin-left: 2%;
+    /* margin-left: 1%; */
    }
     .school,.menu,.btn{
         display: none;
@@ -233,7 +363,8 @@
     }
     .bx{
         flex-direction: column;
-       
+       margin-left: -2%;
+      
     }
     .box{
         margin-bottom: 20px;
@@ -242,7 +373,46 @@
         font-size: 1.625rem;
         margin-bottom: -50px;
     }
-    .icon{
+    .icon,.big-box{
         display: none;
     }
+    .s{
+        font-size: 1.625rem;
+    }
+    .gradient{
+        margin-top: 300px;
+    }
+    .box1{
+        width: 173px;
+        height: 179px;
+    }
+    .collage-box{
+        width: 358px;
+        margin-left: -10%;
+    }
+    .story-2{
+        width: 173px;
+        height: 105px;
+    }
+    .November{
+
+        width: 100px;
+        height: 22px;
+        text-align: center;
+        border: none;
+        border-radius: 47px;
+        font-size: .56rem;
+        font-weight: 500;
+      }
+      .caption{
+        width: 117px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 0.55rem;
+        text-align: left;
+        margin-left: 20px;
+      }
+      .gradient{
+        margin-left: -5%;
+      }
   }
