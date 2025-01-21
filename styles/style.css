@@ -417,7 +417,7 @@
     }
     .navbar{
         margin-left: -7%;
-        width: 390px;
+        max-width: 390px;
         height: 70px;
         border-bottom: 1px solid orange;
         
@@ -440,7 +440,7 @@
         margin-left: 0%;
     }
     .hero-kids{
-        width: 336px;
+        max-width: 336px;
         height: 410px;
         margin-top: 50px;
         margin-left: 2%;
@@ -478,20 +478,20 @@
         height: 600px;
     }
     .box1{
-        width: 173px;
+        max-width: 173px;
         height: 179px;
     }
     .collage-box{
-        width: 358px;
+        max-width: 358px;
         margin-left: -7%;
     }
     .story-2{
-        width: 173px;
+        max-width: 173px;
         height: 105px;
     }
     .November{
 
-        width: 100px;
+        max-width: 100px;
         height: 22px;
         text-align: center;
         border: none;
@@ -500,7 +500,7 @@
         font-weight: 500;
       }
       .caption{
-        width: 117px;
+        max-width: 117px;
         height: 28px;
         font-weight: 700;
         font-size: 0.55rem;
@@ -509,7 +509,7 @@
       }
       .footer{
         flex-direction: column;
-        width: 420px;
+        max-width: 420px;
         height: 640px;
         margin-left: -10%;
         margin-right: -10%;
@@ -522,7 +522,7 @@
         height: 80px;
       }
       .mark{
-        width: 422px;
+        max-width: 422px;
         margin-left: -40px;
       }
     }
